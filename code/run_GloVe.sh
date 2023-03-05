@@ -42,4 +42,4 @@ nohup python3 -u train.py \
   --use_wandb \
   --wandb_name g \
   --weight_decay ${weight_decay} \
-  >logs/train_${model_name}.log 2>&1 &
+  >logs/train_${model_name}.log 2>&1

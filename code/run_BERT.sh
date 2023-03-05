@@ -46,4 +46,4 @@ nohup python3 -u train.py \
   --coslr \
   --weight_decay ${weight_decay} \
   --warmup_epoch ${warmup_epoch} \
-  >logs/train_${model_name}.log 2>&1 &
+  >logs/train_${model_name}.log 2>&1

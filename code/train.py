@@ -26,6 +26,8 @@ def setup_seed(seed):
 def get_lr(optimizer):
     return optimizer.param_groups[0]['lr']
 def train(opt):
+    if hasattr(torch.cuda, 'empty_cache'):
+        torch.cuda.empty_cache()
     rel2id = json.load(open(os.path.join(opt.data_dir, 'rel2id.json'), "r"))
     id2rel = {v: k for k, v in rel2id.items()}
     word2id = json.load(open(os.path.join(opt.data_dir, 'word2id.json'), "r"))

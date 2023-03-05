@@ -1,0 +1,29 @@
+============train_distant.json==============
+data_len(document number): 101873
+max_document_len: 511
+max_sen_length: 197
+max_sen_cnt: 36
+
+============train_annotated.json===========
+data_len: 3053
+max_document_len 511
+max_sen_length 180
+max_sen_cnt 25
+entity number 41
+mention number 84
+
+============dev.json===========
+data_len: 1000
+max_document_len 510
+max_sen_length 128
+max_sen_cnt 21
+entity number 42
+mention number 62
+
+============test.json===========
+data_len: 1000
+max_document_len 508
+max_sen_length 142
+max_sen_cnt 21
+entity number 42
+mention number 64
